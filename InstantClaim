@@ -1,0 +1,2 @@
+local reward_name = "Dinosaur Egg" -- Egg Yang Mau Di Inf
+local a=game.ReplicatedStorage.GameEvents.Notification;task.spawn(function()local a=game.ReplicatedStorage.GameEvents.Notification;local b="Dinosaur Egg"while true do firesignal(a.OnClientEvent,'Dna Machine created <font color="#00ffee">'..b..'</font>!')task.wait(0)end end)task.wait(20)
